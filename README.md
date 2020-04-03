@@ -7,6 +7,22 @@ Creates a whole markdown documentation based on markdown files
 python -m unittest
 ```
 
+## Relationship to the project markdown_html_converter
+
+The project [markdown_html_converter](https://github.com/AumitLeon/markdown_html_converter) from Github user [AumitLeon](https://github.com/AumitLeon) is a benchmark project.
+
+Supposedly, this project offered exact what I needed, as the one project that was the easiest to search in Google, written in Python, to make such task.
+
+But there are things that bore me a little:
+
+* The need always to provide an output name to the output file instead to use the own file name.
+* The lack of features for facilitate the directory navigation if there are more tha one file to convert.
+
+Flaws already also been catched by my personal experience:
+
+* Do not have intelligence to loop through list numbered sequence. Even when the sequence was correct in the markdown, the sequence number is not looped.
+* Also does not treat block code.
+
 ## Disclaimer
 This project uses the [mistune library](https://github.com/lepture/mistune) for parsing markdown into html. Disclaimer below: 
 

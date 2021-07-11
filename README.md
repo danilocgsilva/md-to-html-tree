@@ -23,6 +23,10 @@ Flaws already also been catched by my personal experience:
 * Do not have intelligence to loop through list numbered sequence. Even when the sequence was correct in the markdown, the sequence number is not looped.
 * Also does not treat block code.
 
+## A better way to achieve a nice markdown lecture?
+
+Check this out: https://github.com/rust-lang/mdBook
+
 ## Disclaimer
 This project uses the [mistune library](https://github.com/lepture/mistune) for parsing markdown into html. Disclaimer below: 
 
